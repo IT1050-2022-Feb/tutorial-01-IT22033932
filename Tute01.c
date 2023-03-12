@@ -15,7 +15,9 @@ int main() {
   printf("Enter the second number : ");
   scanf("%f", &no2);
 
-  avg = (no1+no2)/2.0
+  avg = (no1+no2)/2.0;
+
+    printf("Avg of two numbers : %.2f\n", avg);
   
   
   return 0;
